@@ -1,8 +1,9 @@
 * {
-  border: 0px dotted gray;
+  /* border: 0px dotted gray; */
   font-size: 10px;
   padding: 0;
   margin: 0;
+  font-family: "S-CoreDream-3Light";
 }
 .topMenu-bgcolor {
   background-color: rgb(241, 227, 196);
@@ -13,9 +14,13 @@
   overflow: hidden;
   margin: 0 auto;
 }
-.container {
-  display: flex;
-  justify-content: center;
+.logo {
+  font-family: "Parisienne", cursive;
+  color: rgb(62, 43, 44);
+  display: block;
+  width: 200px;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .topMenu > ul li {
@@ -24,54 +29,56 @@
   line-height: 50px;
   text-align: center;
   float: left;
-  background-color: rgb(241, 227, 196);
 }
 .menulink {
   text-decoration: none;
   color: rgb(62, 43, 44);
-  background-color: rgb(241, 227, 196);
   display: block;
   width: 200px;
   font-size: 2.3rem;
   font-weight: bold;
-  font-family: "Trebuchet MS", Dotum, Arial;
-}
-.aside {
-  height: 200px;
-  width: 200px;
-}
-.aside-font {
-  color: rgb(62, 43, 44);
-  font-size: 2rem;
-  list-style: none;
-  background-color: rgb(241, 227, 196);
-}
-.aside-link {
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  font-size: 2rem;
-  color: rgb(62, 43, 44);
-  background-color: rgb(241, 227, 196);
+  font-family: "S-CoreDream-3Light";
 }
 .table {
   margin-bottom: 10px;
-  width: 400px;
-  height: 300px;
+  width: 700px;
+  height: 800px;
   font-family: "S-CoreDream-3Light";
+}
+
+.table > th,
+td {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .section {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 7% auto auto;
 }
 .text-align {
   text-align: center;
-  margin-left: 350px;
+}
+.butten {
+  font-size: 2rem;
 }
 
 .number {
+  font-size: 1.5rem;
 }
 .question {
+  font-size: 2.3rem;
+}
+
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
