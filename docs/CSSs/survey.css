@@ -39,10 +39,17 @@
   font-weight: bold;
   font-family: "S-CoreDream-3Light";
 }
+.title {
+  text-align: center;
+  color: rgb(62, 43, 44);
+  margin: 20px;
+  font-weight: 800;
+  font-size: 4rem;
+}
 .table {
   margin-bottom: 10px;
-  width: 700px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   font-family: "S-CoreDream-3Light";
 }
 
@@ -53,6 +60,8 @@ td {
   align-items: center;
   justify-content: space-around;
   padding: 20px;
+  background-color: rgb(241, 227, 196);
+  color: rgb(62, 43, 44);
 }
 
 .section {
@@ -79,6 +88,7 @@ td {
   text-decoration: none;
   font-weight: 600;
   transition: 0.25s;
+  margin-left: 150px;
 }
 .w-btn-green {
   background-color: #77af9c;
@@ -87,9 +97,13 @@ td {
 
 .number {
   font-size: 1.5rem;
+  color: white;
+  background-color: rgb(141, 144, 142);
 }
 .question {
   font-size: 2.3rem;
+  background-color: rgb(62, 43, 44);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @font-face {
