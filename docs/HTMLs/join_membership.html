@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>로그인</title>
     <link rel="stylesheet" href="../CSSs/join_membership.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
 </head>
-<body>
-    <form action="../../index.html" method="get">
+<body>    
+    <header class="topMenu-bgcolor">
+    <nav class="topMenu">
+      <ul>
+        <li class="logo">L4Hotel</li>
+        <li>
+          <a class="menulink" href="../index.html" target="_self">HOME</a>
+        </li>
+        <li>
+          <a class="menulink" href="./HTMLs/survey.html" target="_self"
+            >설문</a
+          >
+        </li>
+        <li>
+          <a
+            class="menulink"
+            style="margin: 0 200px 0 0"
+            href="./HTMLs/statistics.html"
+            target="_self"
+            >통계</a
+          >
+        </li>
+        <li>
+          <a class="menulink" href="./HTMLs/login.html" target="_self"
+            >로그인</a
+          >
+        </li>
+        <li>
+          <a
+            class="menulink"
+            href="./HTMLs/join_membership.html"
+            target="_self"
+            >회원가입</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <form action="../index.html" method="get">
         <div class="container ">
         <table border="1">
          
@@ -16,25 +59,27 @@
            
             <tr>
               <th>아이디</th>
-              <td><input type="id" name="member_id" />
-              <button>아이디 중복 확인</button></td>
+              <td>
+                <textarea name="member-id " id="userid-id" cols="20" rows="1"></textarea>
+                <button type="submit" id ="userid-id">아이디 중복 확인 </button> 
+              </td>
             </tr>
             <tr>
               <th>비밀번호</th>
               <td>
-                <input type="password" name="member_password" />
+                <input type="password" name="user-password" id ="user-password-id" />
                 </td>
             </tr>
             <tr>
                 <th>비밀번호 확인</th>
                 <td>
-                    <input type="password_check" name="member_password_check">
+                    <input type="password" name="member-password-check" id="member-password-check-id">
                 </td>
             </tr>
             <tr>
                 <th>이름</th>
                 <td>
-                    <input type="name" name="member_name">
+                    <input type="name" name="member-name" id="user-name-id">
                 </td>
             </tr>
         </div>
@@ -44,6 +89,9 @@
             </div>
        
             </form>  
-                
+            <footer class="footer">
+                <div>오시는 길 : 서울특별시 강남구 테헤란로 10길 9길 (지번) 823-42</div>
+                <div>전화번호 : 1544-9970</div>
+              </footer>    
      </body>
   </html>
