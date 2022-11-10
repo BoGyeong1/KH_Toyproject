@@ -61,16 +61,32 @@
   background-color: rgb(241, 227, 196);
 }
 .table {
-  border: 1px solid black;
+  border: 1px solid white;
+  width: 650px;
 }
 .table > th,
 td {
   font-size: 2rem;
-  border: 1px solid black;
+  text-align: center;
+  padding: 3px;
 }
 .th-font {
   font-size: 2rem;
-  border: 1px solid black;
+  padding: 2px;
+}
+.answer-bgcolor {
+  background-color: rgb(241, 227, 196);
+  color: rgb(62, 43, 44);
+}
+.answer-bgcolor > td {
+  width: 140px;
+}
+.que-bgcolor {
+  background-color: rgb(62, 43, 44);
+  color: rgba(255, 255, 255, 0.7);
+}
+.num-bgcolor {
+  background-color: rgb(224, 222, 217);
 }
 .section {
   display: flex;
