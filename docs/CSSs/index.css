@@ -3,6 +3,7 @@
   font-size: 10px;
   padding: 0;
   margin: 0;
+  font-family: "S-CoreDream-3Light";
 }
 .topMenu-bgcolor {
   background-color: rgb(241, 227, 196);
@@ -16,6 +17,15 @@
 .container {
   display: flex;
   justify-content: center;
+}
+.logo {
+  font-family: "Amatic SC", cursive;
+  color: rgb(62, 43, 44);
+  background-color: rgb(241, 227, 196);
+  display: block;
+  width: 200px;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .topMenu > ul li {
@@ -34,7 +44,7 @@
   width: 200px;
   font-size: 2.3rem;
   font-weight: bold;
-  font-family: "Trebuchet MS", Dotum, Arial;
+  font-family: "S-CoreDream-3Light";
 }
 .image {
   display: flex;
@@ -59,4 +69,11 @@
   font-size: 1.2rem;
   text-align: center;
   margin: 10px auto;
+}
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
