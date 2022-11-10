@@ -4,27 +4,32 @@
   padding: 0;
   margin: 0;
 }
-.container {
-  display: flex;
-  margin: auto;
-  padding: 0;
+.topMenu-bgcolor {
+  background-color: rgb(241, 227, 196);
 }
 .topMenu {
   height: 50px;
   width: 1500px;
+  overflow: hidden;
+  margin: 0 auto;
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .topMenu > ul li {
   padding: 0;
   list-style: none;
   line-height: 50px;
   text-align: center;
-  vertical-align: middle;
   float: left;
   background-color: rgb(241, 227, 196);
 }
 .menulink {
   text-decoration: none;
   color: rgb(62, 43, 44);
+  background-color: rgb(241, 227, 196);
   display: block;
   width: 200px;
   font-size: 2.3rem;
@@ -32,7 +37,7 @@
   font-family: "Trebuchet MS", Dotum, Arial;
 }
 .aside {
-  height: 100px;
+  height: 200px;
   width: 200px;
 }
 .aside-font {
