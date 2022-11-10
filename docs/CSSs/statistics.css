@@ -1,5 +1,5 @@
 * {
-  /* border: 0px dotted gray; */
+  /* border: 1px dotted gray; */
   font-size: 10px;
   padding: 0;
   margin: 0;
@@ -40,23 +40,24 @@
   font-family: "S-CoreDream-3Light";
 }
 .aside {
-  width: 100px;
+  width: 170px;
 }
 .aside-font {
+  list-style-type: none;
   color: rgb(62, 43, 44);
   padding: 2px;
-  width: 200px;
+
   font-size: 2rem;
-  list-style: none;
   background-color: rgb(173, 205, 185);
 }
 .aside-link {
-  padding: 0px;
-  width: 200px;
   text-decoration: none;
   list-style: none;
   font-size: 2rem;
   color: rgb(62, 43, 44);
+}
+.aside-link-bgcolor {
+  padding: 2px;
   background-color: rgb(241, 227, 196);
 }
 .table {
