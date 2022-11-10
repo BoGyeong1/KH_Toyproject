@@ -46,11 +46,25 @@
   list-style: none;
   background-color: rgb(241, 227, 196);
 }
-
-table {
-  margin-left: auto;
-  margin-right: auto;
+.aside-link {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 2rem;
+  color: rgb(62, 43, 44);
+  background-color: rgb(241, 227, 196);
+}
+.table {
   margin-bottom: 10px;
+  width: 400px;
+  height: 300px;
+  font-family: "S-CoreDream-3Light";
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .text-align {
   text-align: center;
