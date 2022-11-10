@@ -1,0 +1,20 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.rogin {
+  font-size: 20px;
+  text-align: center;
+  margin: 50px 250px 0px 0px;
+}
+
+th {
+  background-color: rgb(255, 229, 153);
+  padding-right: 50px;
+}
+.text-align {
+  text-align: center;
+  margin-left: 250px;
+}

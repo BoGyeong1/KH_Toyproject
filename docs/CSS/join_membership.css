@@ -1,0 +1,22 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.container {
+  display: row;
+  margin: 10px 0px 0px 200px;
+}
+.join {
+  font-size: 20px;
+  text-align: center;
+  margin: 50px 360px 10px 0px;
+}
+th {
+  background-color: rgb(191, 191, 191);
+  padding-right: 30px;
+}
+.text-align {
+  text-align: center;
+  margin-left: 400px;
+}
