@@ -1,3 +1,45 @@
+* {
+  /* border: 0px dotted gray; */
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  font-family: "S-CoreDream-3Light";
+}
+.topMenu-bgcolor {
+  background-color: rgb(241, 227, 196);
+}
+.topMenu {
+  height: 50px;
+  width: 1500px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.logo {
+  font-family: "Parisienne", cursive;
+  color: rgb(62, 43, 44);
+  display: block;
+  width: 200px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.topMenu > ul li {
+  padding: 0;
+  list-style: none;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+}
+.menulink {
+  text-decoration: none;
+  color: rgb(62, 43, 44);
+  display: block;
+  width: 200px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-family: "S-CoreDream-3Light";
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
@@ -19,4 +61,26 @@ th {
 .text-align {
   text-align: center;
   margin-left: 400px;
+}
+
+.footer {
+  width: 100%;
+  height: 80px; /* footer의 높이 */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(241, 227, 196);
+  color: rgb(62, 43, 44);
+}
+.footer > div {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px auto;
+}
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
