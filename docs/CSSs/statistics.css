@@ -39,13 +39,21 @@
   font-weight: bold;
   font-family: "S-CoreDream-3Light";
 }
+
+.title {
+  text-align: center;
+  color: rgb(62, 43, 44);
+  margin: 20px;
+  font-weight: 800;
+  font-size: 4rem;
+}
 .aside {
   width: 170px;
 }
 .aside-font {
   list-style-type: none;
   color: rgb(62, 43, 44);
-  padding: 2px;
+  padding: 6px;
 
   font-size: 2rem;
   background-color: rgb(173, 205, 185);
@@ -55,6 +63,7 @@
   list-style: none;
   font-size: 2rem;
   color: rgb(62, 43, 44);
+  padding: 6px;
 }
 .aside-link-bgcolor {
   padding: 2px;
@@ -62,13 +71,17 @@
 }
 .table {
   border: 1px solid white;
-  width: 650px;
+  width: 670px;
 }
 .table > th,
 td {
   font-size: 2rem;
   text-align: center;
   padding: 3px;
+}
+.que-num-color {
+  color: white;
+  background-color: rgb(141, 144, 142);
 }
 .th-font {
   font-size: 2rem;
@@ -93,21 +106,18 @@ td {
   align-items: center;
   justify-content: center;
 }
-.butten {
-  font-size: 3rem;
-  margin: 30px;
-}
 .w-btn {
   position: relative;
   border: none;
   display: inline-block;
   padding: 15px 30px;
   border-radius: 15px;
-  font-family: "paybooc-Light", sans-serif;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   font-weight: 600;
+  font-size: 2rem;
   transition: 0.25s;
+  margin: 30px;
 }
 .w-btn-green {
   background-color: #77af9c;
