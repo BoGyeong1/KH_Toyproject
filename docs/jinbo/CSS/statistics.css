@@ -1,0 +1,72 @@
+* {
+  border: 0px dotted gray;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  margin: auto;
+  padding: 0;
+}
+.topMenu {
+  height: 50px;
+  width: 1500px;
+}
+.topMenu > ul li {
+  padding: 0;
+  list-style: none;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  background-color: rgb(241, 227, 196);
+}
+.menulink {
+  text-decoration: none;
+  color: rgb(62, 43, 44);
+  display: block;
+  width: 200px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+.aside {
+  height: 100px;
+  width: 200px;
+}
+.aside-font {
+  color: rgb(62, 43, 44);
+  font-size: 2rem;
+  list-style: none;
+  background-color: rgb(241, 227, 196);
+}
+.aside-link {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 2rem;
+  color: rgb(62, 43, 44);
+  background-color: rgb(241, 227, 196);
+}
+.table {
+  border: 1px solid black;
+}
+.table > th,
+td {
+  font-size: 2rem;
+  border: 1px solid black;
+}
+.th-font {
+  font-size: 2rem;
+  border: 1px solid black;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.butten {
+  margin: 30px;
+  font-size: 3rem;
+}
