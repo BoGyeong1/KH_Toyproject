@@ -41,13 +41,12 @@
 }
 .title {
   text-align: center;
+  margin-top: 100px;
   color: rgb(62, 43, 44);
-  margin: 20px;
   font-weight: 800;
   font-size: 4rem;
 }
 .table {
-  margin-bottom: 10px;
   width: 800px;
   height: 600px;
   font-family: "S-CoreDream-3Light";
@@ -55,7 +54,8 @@
 
 .table > th,
 td {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -68,27 +68,24 @@ td {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 7% auto auto;
+  margin: 20px auto 20px auto;
 }
 .text-align {
   text-align: center;
 }
-.butten {
-  font-size: 2rem;
-  margin: 20px;
-}
+
 .w-btn {
   position: relative;
   border: none;
   display: inline-block;
   padding: 15px 30px;
   border-radius: 15px;
-  font-family: "paybooc-Light", sans-serif;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   font-weight: 600;
+  font-size: 2rem;
   transition: 0.25s;
-  margin-left: 150px;
+  margin: 10px;
 }
 .w-btn-green {
   background-color: #77af9c;
@@ -96,12 +93,13 @@ td {
 }
 
 .number {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: white;
   background-color: rgb(141, 144, 142);
 }
 .question {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
+  padding: 3px;
   background-color: rgb(62, 43, 44);
   color: rgba(255, 255, 255, 0.7);
 }
