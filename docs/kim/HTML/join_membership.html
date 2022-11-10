@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/rogin.css">
+    <link rel="stylesheet" href="../../kim/CSS/join_membership.css">
 </head>
 <body>
     <form action="../../index.html" method="get">
+        <div class="container ">
         <table border="1">
-         <div class="rogin">로그인</div>
+         
+            <div class="join">회원가입</div>
+           
             <tr>
               <th>아이디</th>
               <td><input type="id" name="member_id" />
-              
+              <button>아이디 중복 확인</button></td>
             </tr>
             <tr>
               <th>비밀번호</th>
@@ -22,13 +25,25 @@
                 <input type="password" name="member_password" />
                 </td>
             </tr>
-          
+            <tr>
+                <th>비밀번호 확인</th>
+                <td>
+                    <input type="password_check" name="member_password_check">
+                </td>
+            </tr>
+            <tr>
+                <th>이름</th>
+                <td>
+                    <input type="name" name="member_name">
+                </td>
+            </tr>
+        </div>
             <table >
-              <div class="text-align">
+                <div class="text-align">
                 <button type="submit">확인</button>
             </div>
        
-            </form> 
-              
-</body>
-</html>
+            </form>  
+                
+     </body>
+  </html>
