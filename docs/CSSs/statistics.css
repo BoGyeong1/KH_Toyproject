@@ -94,9 +94,26 @@ td {
   justify-content: center;
 }
 .butten {
-  margin: 30px;
   font-size: 3rem;
+  margin: 30px;
 }
+.w-btn {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+}
+.w-btn-green {
+  background-color: #77af9c;
+  color: #d7fff1;
+}
+
 @font-face {
   font-family: "S-CoreDream-3Light";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
