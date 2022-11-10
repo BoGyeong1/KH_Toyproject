@@ -1,97 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>로그인</title>
-    <link rel="stylesheet" href="../CSSs/join_membership.css">
+    <link rel="stylesheet" href="../CSSs/join_membership.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>    
+  </head>
+  <body>
     <header class="topMenu-bgcolor">
-    <nav class="topMenu">
-      <ul>
-        <li class="logo">L4Hotel</li>
-        <li>
-          <a class="menulink" href="../index.html" target="_self">HOME</a>
-        </li>
-        <li>
-          <a class="menulink" href="./HTMLs/survey.html" target="_self"
-            >설문</a
-          >
-        </li>
-        <li>
-          <a
-            class="menulink"
-            style="margin: 0 200px 0 0"
-            href="./HTMLs/statistics.html"
-            target="_self"
-            >통계</a
-          >
-        </li>
-        <li>
-          <a class="menulink" href="./HTMLs/login.html" target="_self"
-            >로그인</a
-          >
-        </li>
-        <li>
-          <a
-            class="menulink"
-            href="./HTMLs/join_membership.html"
-            target="_self"
-            >회원가입</a
-          >
-        </li>
-      </ul>
-    </nav>
-  </header>
+      <nav class="topMenu">
+        <ul>
+          <li class="logo">L4Hotel</li>
+          <li>
+            <a class="menulink" href="../index.html" target="_self">HOME</a>
+          </li>
+          <li>
+            <a class="menulink" href="./HTMLs/survey.html" target="_self"
+              >설문</a
+            >
+          </li>
+          <li>
+            <a
+              class="menulink"
+              style="margin: 0 200px 0 0"
+              href="./HTMLs/statistics.html"
+              target="_self"
+              >통계</a
+            >
+          </li>
+          <li>
+            <a class="menulink" href="./HTMLs/login.html" target="_self"
+              >로그인</a
+            >
+          </li>
+          <li>
+            <a
+              class="menulink"
+              href="./HTMLs/join_membership.html"
+              target="_self"
+              >회원가입</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
     <form action="../index.html" method="get">
-        <div class="container ">
-        <table border="1">
-         
-            <div class="join">회원가입</div>
-           
-            <tr>
-              <th>아이디</th>
-              <td>
-                <textarea name="member-id " id="userid-id" cols="20" rows="1"></textarea>
-                <button type="submit" id ="userid-id">아이디 중복 확인 </button> 
-              </td>
-            </tr>
-            <tr>
-              <th>비밀번호</th>
-              <td>
-                <input type="password" name="user-password" id ="user-password-id" />
-                </td>
-            </tr>
-            <tr>
-                <th>비밀번호 확인</th>
-                <td>
-                    <input type="password" name="member-password-check" id="member-password-check-id">
-                </td>
-            </tr>
-            <tr>
-                <th>이름</th>
-                <td>
-                    <input type="name" name="member-name" id="user-name-id">
-                </td>
-            </tr>
-        </div>
-            <table >
-                <div class="text-align">
-                <button type="submit">확인</button>
-            </div>
-       
-            </form>  
-            <footer class="footer">
-                <div>오시는 길 : 서울특별시 강남구 테헤란로 10길 9길 (지번) 823-42</div>
-                <div>전화번호 : 1544-9970</div>
-              </footer>    
-     </body>
-  </html>
+      <div class="join">회원가입</div>
+      <div class="container">
+        <table class="table">
+          <tr class="th-color th-size">
+            <th class="th-size">아이디</th>
+            <td>
+              <input
+                type="text"
+                name="inputname"
+                id="userid-id"
+                class="input-size"
+              />
+<form action="../index.html" method="get">
+              <button type="submit" name="id-duplocation" value="idcheck" class="id">
+                아이디 중복 확인
+              </button>
+            </form>
+            </td>
+          </tr>
+          <tr class="th-color">
+            <th class="th-size">비밀번호</th>
+            <td>
+              <input
+                type="text"
+                name="inputpassword"
+                id="password-id"
+                class="input-size"
+              />
+            </td>
+          </tr>
+          <tr class="th-color">
+            <th class="th-size">비밀번호 확인</th>
+            <td>
+              <input
+                type="text"
+                name="password-check"
+                id="password-check-id"
+                class="input-size"
+              />
+            </td>
+          </tr>
+          <tr class="th-color">
+            <th class="th-size">이름</th>
+            <td>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name-id"
+                class="input-size"
+              />
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div class="text-align">
+<a href="../index.html" target="_self" >
+      <button class="w-btn w-btn-green" type="submit" >
+        확인
+      </button>
+    </a>
+</div>
+    </form>
+    <footer class="footer">
+      <div>오시는 길 : 서울특별시 강남구 테헤란로 10길 9길 (지번) 823-42</div>
+      <div>전화번호 : 1544-9970</div>
+    </footer>
+  </body>
+</html>
