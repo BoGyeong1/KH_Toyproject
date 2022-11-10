@@ -103,6 +103,20 @@ td {
   background-color: rgb(62, 43, 44);
   color: rgba(255, 255, 255, 0.7);
 }
+.footer {
+  width: 100%;
+  height: 80px; /* footer의 높이 */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(241, 227, 196);
+  color: rgb(62, 43, 44);
+}
+.footer > div {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px auto;
+}
 
 @font-face {
   font-family: "S-CoreDream-3Light";
