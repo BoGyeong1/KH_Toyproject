@@ -5,33 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSSs/login.css">
+    <link rel="stylesheet" href="../CSSs/survey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-   
-        <table border="1">
-         <div class="rogin">로그인</div>
-            <tr>
-              <th>아이디</th>
-              <td><input type="id" name="member_id" />
-              
-            </tr>
-            <tr>
-              <th>비밀번호</th>
-              <td>
-                <input type="password" name="member_password" />
-                </td>
-            </tr>
-          
-            <table >
-             <!--  <form action="../../index.html" method="get">-->
-              <div >
-                <a href="../index.html" target="_self" >
-                <button class="w-btn w-btn-green" type="submit" >
-                  BUTTON
-                </button>
-              </a>
-              </div>
-       </body>
+</head>
+<body>
+  <!--메뉴 소스-->
+  <header class="topMenu-bgcolor">
+    <nav class="topMenu">
+      <ul>
+        <li class="logo">L4Hotel</li>
+        <li>
+          <a class="menulink" href="../index.html" target="_self">HOME</a>
+        </li>
+        <li>
+          <a class="menulink" href="./survey.html" target="_self"
+            >설문</a
+          >
+        </li>
+        <li>
+          <a
+            class="menulink"
+            style="margin: 0 200px 0 0"
+            href="./statistics.html"
+            target="_self"
+            >통계</a
+          >
+        </li>
+        <li>
+          <a class="menulink" href="./login.html" target="_self"
+            >로그인</a
+          >
+        </li>
+        <li>
+          <a
+            class="menulink"
+            href="./join_membership.html"
+            target="_self"
+            >회원가입</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="table">
+      <table border="1">
+        <div class="rogin">로그인</div>
+        <!--   <tr>-->
+        <th>아이디</th>
+        <td><input type="id" name="member_id" /></td>
+        <!--    </tr>-->
+
+        <tr>
+          <th>비밀번호</th>
+          <td>
+            <input type="password" name="member_password" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!--  <form action="../../index.html" method="get">-->
+    <div>
+      <a href="../index.html" target="_self">
+        <button class="w-btn w-btn-green btn" type="submit">확인</button>
+      </a>
+    </div>
+  </body>
 </html>
 <!-- -->
