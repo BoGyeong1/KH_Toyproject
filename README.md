@@ -16,8 +16,8 @@
 
 ### 🍇 Team Member & Part
 
-- 진보경:
-- 김다솜:
+- 진보경:[index](./docs/index.html), [join_membership](./docs/HTMLs/join_membership.html),[statistics](./docs/HTMLs/statistics_first.html)
+- 김다솜:[login](./docs/HTMLs/login.html),[period_stay](./docs/HTMLs/period_stay.html),[survey](./docs/HTMLs/survey.html)
 
 ### 🍰 요구사항 정의서 & 화면 정의서
 
