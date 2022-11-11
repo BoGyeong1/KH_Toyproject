@@ -47,7 +47,7 @@
   font-size: 4rem;
 }
 .table {
-  width: 800px;
+  width: 700px;
   height: 600px;
   font-family: "S-CoreDream-3Light";
 }
@@ -55,11 +55,11 @@
 .table > th,
 td {
   font-size: 2.2rem;
-  height: 42px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
+  padding: 25px;
   background-color: rgb(241, 227, 196);
   color: rgb(62, 43, 44);
 }
@@ -127,3 +127,12 @@ td {
   font-weight: normal;
   font-style: normal;
 }
+
+/*font-size: 2.2rem;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(241, 227, 196);
+  color: rgb(62, 43, 44);*/
