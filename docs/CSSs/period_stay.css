@@ -51,15 +51,21 @@
 .stay2 {
   font-size: 2rem;
   text-align: center;
-  margin: 20px 80px 10px 0px;
+  margin: 20px 150px 10px 0px;
 }
-th {
-  background-color: rgb(255, 229, 153);
-  padding-right: 50px;
+.th-color {
+  background-color: rgb(241, 227, 196);
+  color: rgb(62, 43, 44);
+  font-size: 2.4rem;
+  width: 200px;
+  margin: 4px;
+}
+.input-date {
+  width: 180px;
+  font-size: 2.4rem;
 }
 .text-align {
   text-align: center;
-  margin-left: 270px;
 }
 .w-btn {
   position: relative;

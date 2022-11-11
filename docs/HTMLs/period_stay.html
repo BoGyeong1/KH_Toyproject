@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Length of stay</title>
     <link rel="stylesheet" href="../CSSs/period_stay.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,23 +42,25 @@
       <div class="stay2">투숙 기간을 입력해 주세요</div>
       <table class="table">
           <tr>
-            <th>Check In</th>
-            <td><input type="check_in" name="check_in_date" />
+            <th class="th-color">Check In</th>
+            <td><input type="date" name="check_in_date" class="input-date "/>
             
           </tr>
           <tr>
-            <th>Check Out</th>
+            <th class="th-color">Check Out</th>
             <td>
-              <input type="check_out" name="check_out_data" />
+              <input type="date" name="check_out_data" class="input-date"/>
               </td>
           </tr>
         
           <table >
-            <div class="text-align">
-              <button type="submit">확인</button>
-          </div>
-
-
+   <div class="text-align">
+  <a href="./survey.html" target="_self" >
+        <button class="w-btn w-btn-green" type="submit" >
+          확인
+        </button>
+      </a>
+  </div>
           </form>  
               <!-- footer 호텔 주소와 연락처-->
     <footer class="footer">
