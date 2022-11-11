@@ -14,20 +14,21 @@
 
 - 2022년 11월 10일 ~ 2022년 11월 11일
 
-### Team name : 보솜
+### 🍇 Team Member & Part
 
-### 소개
+- 진보경:
+- 김다솜:
 
-L4 Hotel을
+### 🍰 요구사항 정의서 & 화면 정의서
 
-### 개발기간
+- [화면정의서](./docs/refers/bosom_Wireframe.pdf)
 
-2022년 11월 10일 ~
+### 🙈 IMAGE & 🙉 YOUTUBE VIDEO
 
-### 기술
+- [IMAGE]
 
-### 멤버소개
+- [YOUTUBE]
 
-### 화면정의서
+### 프로젝트를 마무리하며 느낀 소감
 
-[화면정의서](./docs/refers/bosom_Wireframe.pdf)
+-
