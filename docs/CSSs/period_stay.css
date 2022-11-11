@@ -65,14 +65,19 @@ th {
   position: relative;
   border: none;
   display: inline-block;
-  padding: 15px 20px;
+
+  padding: 15px 30px;
   border-radius: 15px;
-  font-family: "paybooc-Light", sans-serif;
-  box-shadow: 0 15px 35px rgb(0 0 0 / 20%);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   font-weight: 600;
+  font-size: 2rem;
   transition: 0.25s;
   margin: 30px;
+}
+.w-btn-green {
+  background-color: #77af9c;
+  color: #d7fff1;
 }
 
 .w-btn-green {
