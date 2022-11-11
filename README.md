@@ -16,15 +16,15 @@
 
 ### 🍇 Team Member & Part
 
-- 진보경
+# 진보경
 
-* [HTML] [index](./docs/index.html) / [join_membership](./docs/HTMLs/join_membership.html) / [statistics](./docs/HTMLs/statistics_first.html)
-* [CSS][index](./docs/CSSs/index.css) / [join_membership](./docs/CSSs/join_membership.css) / [statistics](./docs/CSSs/statistics.css)
+- [HTML] [index](./docs/index.html) / [join_membership](./docs/HTMLs/join_membership.html) / [statistics](./docs/HTMLs/statistics_first.html)
+- [CSS][index](./docs/CSSs/index.css) / [join_membership](./docs/CSSs/join_membership.css) / [statistics](./docs/CSSs/statistics.css)
 
-- 김다솜
+# 김다솜
 
-* [HTML] [login](./docs/HTMLs/login.html) / [period_stay](./docs/HTMLs/period_stay.html) / [survey](./docs/HTMLs/survey.html)
-* [CSS] [login](./docs/CSSs/login.css) / [period_stay](./docs/CSSs/period_stay.css) / [survey](./docs/CSSs/survey.css)
+- [HTML] [login](./docs/HTMLs/login.html) / [period_stay](./docs/HTMLs/period_stay.html) / [survey](./docs/HTMLs/survey.html)
+- [CSS] [login](./docs/CSSs/login.css) / [period_stay](./docs/CSSs/period_stay.css) / [survey](./docs/CSSs/survey.css)
 
 ### 🍰 요구사항 정의서 & 화면 정의서
 
