@@ -21,6 +21,8 @@
 
 ### 🍰 요구사항 정의서 & 화면 정의서
 
+- [요구사항정의서](./docs/refers/bosom_demand.png)
+
 - [화면정의서](./docs/refers/bosom_Wireframe.pdf)
 
 ### 🙈 IMAGE & 🙉 YOUTUBE VIDEO
