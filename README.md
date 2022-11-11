@@ -19,7 +19,7 @@
 ### 진보경
 
 - [HTML] [index](./docs/index.html) / [join_membership](./docs/HTMLs/join_membership.html) / [statistics](./docs/HTMLs/statistics_first.html)
-- [CSS][index](./docs/CSSs/index.css) / [join_membership](./docs/CSSs/join_membership.css) / [statistics](./docs/CSSs/statistics.css)
+- [CSS] [index](./docs/CSSs/index.css) / [join_membership](./docs/CSSs/join_membership.css) / [statistics](./docs/CSSs/statistics.css)
 
 ### 김다솜
 
