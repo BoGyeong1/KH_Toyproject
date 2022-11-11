@@ -55,6 +55,7 @@
   font-size: 4rem;
   text-align: center;
   margin: 40px;
+  color: rgb(62, 43, 44);
 }
 .th-color > th {
   background-color: rgb(62, 43, 44);
