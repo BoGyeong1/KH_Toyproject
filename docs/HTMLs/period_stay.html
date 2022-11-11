@@ -8,9 +8,33 @@
     <link rel="stylesheet" href="../CSSs/period_stay.css" />
   </head>
   <body>
+    <header class="topMenu-bgcolor">
+      <nav class="topMenu">
+        <ul>
+          <li class="logo">L4Hotel</li>
+          <li><a class="menulink" href="../index.html" target="_self">HOME</a></li>
+          <li><a class="menulink" href="./survey.html" target="_self">설문</a></li>
+          <li>
+            <a
+              class="menulink"
+              style="margin: 0 200px 0 0"
+              href="./statistics.html"
+              target="_self"
+              >통계</a
+            >
+          </li>
+          <li><a class="menulink" href="./login.html" target="_self">로그인</a></li>
+          <li>
+            <a class="menulink" href="./join_membership.html" target="_self">회원가입</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+         <!--투숙기간 입력 창-->
     <form action="../../index.html" method="get">
-      <table border="1">
-       <div class="stay">투숙 기간을 입력해 주세요</div>
+      <div class="stay1">투숙기간</div>
+      <div class="stay2">투숙 기간을 입력해 주세요</div>
+      <table class="table">
           <tr>
             <th>Check In</th>
             <td><input type="check_in" name="check_in_date" />
@@ -27,8 +51,13 @@
             <div class="text-align">
               <button type="submit">확인</button>
           </div>
-     
+
+
           </form>  
-             
+              <!-- footer 호텔 주소와 연락처-->
+    <footer class="footer">
+      <div>오시는 길 : 서울특별시 강남구 테헤란로 10길 9길 (지번) 823-42</div>
+      <div>전화번호 : 1544-9970</div>
+    </footer>   
   </body>
 </html>
