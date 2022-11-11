@@ -52,11 +52,13 @@
 .stay2 {
   font-size: 2rem;
   text-align: center;
+  color: rgb(62, 43, 44);
   margin: 20px 150px 10px 0px;
 }
 .stay3 {
   font-size: 1.2rem;
   text-align: center;
+  color: rgb(62, 43, 44);
   margin: 0px 60px 20px 0px;
 }
 .th-color {
