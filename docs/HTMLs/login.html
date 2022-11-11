@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../CSSs/survey.css" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSSs/login.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <!--메뉴 소스
+    <!--메뉴 소스-->
     <header class="topMenu-bgcolor">
       <nav class="topMenu">
         <ul>
@@ -46,33 +46,33 @@
           </li>
         </ul>
       </nav>
-    </header> -->
-    <article>
-      <form action="../index.html" method="get">
-        <div class="rogin">로그인</div>
-        <div class="container">
-          <table border="1" class="table">
+    </header>
+
+  <!--login-->
+  <form action="../index.html" method="get">
+        <article class="container ">
+          <div class="login">로그인</div>
+          <table class= "table">
             <tr>
               <th class="th-size">아이디</th>
-              <td><input type="id" name="member_id" class="td-size" /></td>
+              <td><input type="id" name="member_id" class="td-size"  /></td>
             </tr>
 
             <tr>
-              <th class="th-size">비밀번호</th>
+              <th class="th-size ">비밀번호</th>
               <td>
-                <input type="password" name="member_password" />
+                <input type="password" name="member_password" class="td-size" />
               </td>
             </tr>
           </table>
-        </div>
-
         <div class="text-align">
           <a href="../index.html" target="_self">
-            <button class="w-btn w-btn-green btn" type="submit">확인</button>
+            <button class="w-btn w-btn-green btn" type="submit" >확인</button>
           </a>
         </div>
       </form>
     </article>
+
     <footer class="footer">
       <div>오시는 길 : 서울특별시 강남구 테헤란로 10길 9길 (지번) 823-42</div>
       <div>전화번호 : 1544-9970</div>

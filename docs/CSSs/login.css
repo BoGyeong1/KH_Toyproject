@@ -1,5 +1,4 @@
-/* * {
-  
+* {
   font-size: 10px;
   padding: 0;
   margin: 0;
@@ -39,38 +38,25 @@
   font-weight: bold;
   font-family: "S-CoreDream-3Light";
 }
-여기부터 시작  
-.table {
-  text-align: center;
-}
-.container {
-  display: flex;
-  justify-content: center;
-}
-.rogin{
-  font-size: 4rem;
-  text-align: center;
-  margin: 40px;
-}
-.tr-size{
-  padding: 5px;
-} */
+
 .w-btn {
   position: relative;
   border: none;
   display: inline-block;
   padding: 15px 30px;
   border-radius: 15px;
-  font-family: "paybooc-Light", sans-serif;
+  font-family: "S-CoreDream-3Light";
   box-shadow: 0 15px 35px rgb(0 0 0 / 20%);
   text-decoration: none;
   font-weight: 600;
   transition: 0.25s;
+  font-size: 2rem;
 }
 .w-btn-green {
   background-color: #77af9c;
   color: #d7fff1;
 }
+
 .footer {
   width: 100%;
   height: 80px; /* footer의 높이 */
@@ -85,6 +71,7 @@
   text-align: center;
   margin: 10px auto;
 }
+
 @font-face {
   font-family: "S-CoreDream-3Light";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
@@ -93,65 +80,27 @@
   font-style: normal;
 }
 
-/*
-font-size: 20px;
-
-margin: 50px 250px 0px 0px;
-font-family: "S-CoreDream-3Light";
-ont-size: 4rem;
-text-align: center;
-margin: 40px;
-.text-align {
-  text-align: center;
-  margin-left: 250px;
-}
-  
- 
- 
-  width: 120px;
-    margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  width: 400px;
-  height: 90px;
-  text-align: center;
-  font-family: "paybooc-Light", sans-serif;
-
-
-
-
-
-
 .container {
   display: flex;
   justify-content: center;
-}
-.table{
   text-align: center;
-  width: 700;
-  border-spacing: 10px;
+  flex-direction: column;
 }
-.rogin {
+.table {
+  width: 400px;
+  margin: 20px auto;
+}
+.login {
   font-size: 4rem;
-  text-align: center;
-  margin: 40px; text-align: center;
-    
+  margin: 50px auto 30px auto;
 }
-.th-size{
-  padding: 10px;
-  margin: 20px 0px 0px 40px;
-  font-size: 30px;
+.th-size {
+  height: 30px;
+  font-size: 2rem;
+  background-color: rgb(241, 227, 196);
+  padding: 5px;
+  border: white solid 2px;
 }
-.td-size{
-  width: 150px;
-  height: 20px;
-  font-size: 1.5rem;
-
+.td-size {
+  font-size: 2rem;
 }
-
-tr> th {
-  background-color: rgb(62, 43, 44);
-  color: rgba(255, 255, 255, 0.7);
-  padding: 12px 20px 10px 20px;
-  margin: 50px 20px 0px 0px;
-} */

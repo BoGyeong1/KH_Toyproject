@@ -102,7 +102,7 @@ td {
 .num-bgcolor {
   background-color: rgb(224, 222, 217);
 }
-.section {
+.table-center {
   display: flex;
   align-items: center;
   justify-content: center;
