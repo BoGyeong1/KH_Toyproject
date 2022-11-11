@@ -54,6 +54,11 @@
   text-align: center;
   margin: 20px 150px 10px 0px;
 }
+.stay3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0px 60px 20px 0px;
+}
 .th-color {
   background-color: rgb(241, 227, 196);
   color: rgb(62, 43, 44);
