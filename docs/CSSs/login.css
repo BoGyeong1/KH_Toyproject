@@ -39,17 +39,7 @@
   font-weight: bold;
   font-family: "S-CoreDream-3Light";
 }
-.table {
-
-}
-
-.rogin {
-  text-align: center;
-    margin-top: 100px;
-    color: rgb(62, 43, 44);
-    font-weight: 800;
-    font-size: 4rem;
-}
+/*여기부터 시작  */
 
 .w-btn {
   position: relative;
@@ -68,12 +58,6 @@
   color: #d7fff1;
 }
 
-tr > th {
-  background-color: rgb(62, 43, 44);
-  color: rgba(255, 255, 255, 0.7);
-  padding: 12px 20px 10px 20px;
-  margin: 50px 20px 0px 0px;
-}
 @font-face {
   font-family: "S-CoreDream-3Light";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
@@ -105,3 +89,42 @@ margin: 40px;
   height: 90px;
   text-align: center;
   font-family: "paybooc-Light", sans-serif;
+
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.table{
+  text-align: center;
+  width: 700;
+  border-spacing: 10px;
+}
+.rogin {
+  font-size: 4rem;
+  text-align: center;
+  margin: 40px; text-align: center;
+    
+}
+.th-size{
+  padding: 10px;
+  margin: 20px 0px 0px 40px;
+  font-size: 30px;
+}
+.td-size{
+  width: 150px;
+  height: 20px;
+  font-size: 1.5rem;
+
+}
+
+tr> th {
+  background-color: rgb(62, 43, 44);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 12px 20px 10px 20px;
+  margin: 50px 20px 0px 0px;
+}
