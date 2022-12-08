@@ -19,12 +19,64 @@
   </head>
   <body>
     <!-- 메뉴 -->
-    <header></header>
+    <header>
+      <div class="container">
+        <nav
+          class="menu navbar navbar-expand d-flex flex-column flex-column flex-md-row fixed-top"
+        >
+          <div>
+            <a
+              href="./index.html"
+              class="logo navbar-brand ms-md-auto ps-5 fw-bold fs-2"
+              style="color: rgb(62, 43, 44)"
+              >L4Hotel</a
+            >
+          </div>
+          <div class="container">
+            <div class="navbar-nav fs-4 fw-bold">
+              <a
+                href="./index.html"
+                class="nav-item nav-link ms-3 me-5"
+                style="width: 80px"
+                >HOME</a
+              >
+              <a
+                href="./period_stay.html"
+                class="nav-item nav-link me-5"
+                style="width: 80px"
+                >설문</a
+              >
+              <a
+                href="./statistic_first.html"
+                class="nav-item nav-link me-5"
+                style="width: 80px"
+                >통계</a
+              >
+            </div>
+            <div>
+              <div
+                class="navbar-nav d-flex justify-content-end flex-md-row ms-md-auto"
+              >
+                <a href="./login.html" class="btn fw-bold" style="width: 80px"
+                  >로그인</a
+                >
+                <a
+                  href="./join_membership.html"
+                  class="btn fw-bold"
+                  style="width: 90px"
+                  >회원가입</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <!-- 메인 -->
     <main>
       <div class="container-fluid">
-        <div class="d-flex">
-          <nav class="d-flex sidebar">
+        <div class="d-flex mt-5">
+          <nav class="d-flex sidebar" style="margin-top: 50px">
             <ul class="list-unstyled font-color">
               <div
                 class="btn btn-toggle collapsed fs-5 fw-bold"
@@ -35,7 +87,9 @@
               </div>
 
               <ul class="list-unstyled collapse" id="collapseTarget">
-                <a href="" class="rounded nav-link ms-3 fw-bold fs-5 font-color"
+                <a
+                  href="./staticstics.html"
+                  class="rounded nav-link ms-3 fw-bold fs-5 font-color"
                   >문항별 통계</a
                 >
               </ul>
@@ -48,8 +102,8 @@
             >
               문항별 통계
             </div>
-            <div class="m-5 d-flex">
-              <table class="table text-center">
+            <div class="m-5 d-flex justify-content-center">
+              <table class="table justify-content-center text-center">
                 <thead>
                   <tr>
                     <th class="border-white" rowspan="3">문항1</th>
@@ -186,7 +240,18 @@
       </div>
     </main>
     <!-- footer -->
-    <footer></footer>
+    <footer>
+      <nav class="navbar fixed-bottom footer">
+        <div class="container-fluid">
+          <div class="d-flex flex-column text-center mx-auto my-3 p-2">
+            <div>
+              오시는 길 : 서울특별시 강남구 테헤란로 10길 9길 (지번) 823-42
+            </div>
+            <div>전화번호 : 1544-9970</div>
+          </div>
+        </div>
+      </nav>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

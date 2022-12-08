@@ -1,7 +1,28 @@
 * {
-  border: 1px solid gray;
   font-family: "S-CoreDream-3Light";
+  color: rgb(62, 43, 44);
 }
+img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#mainId {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.logo {
+  font-family: "Parisienne", cursive;
+}
+.menu {
+  background-color: rgb(241, 227, 196);
+}
+.footer {
+  background-color: rgb(241, 227, 196);
+  font-size: 0.8rem;
+}
+
 .font-color {
   color: rgb(62, 43, 44);
 }
@@ -10,7 +31,7 @@
   background-color: rgb(173, 205, 185);
 }
 .table1 {
-  margin-top: 300px;
+  margin-top: 100px;
   width: 1000px;
 }
 
