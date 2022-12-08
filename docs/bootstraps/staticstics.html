@@ -25,31 +25,39 @@
       <div class="container-fluid">
         <div class="d-flex">
           <nav class="d-flex sidebar">
-            <ul class="list-unstyled">
-              <a
-                href=""
-                class="btn btn-toggle collapsed fs-5"
+            <ul class="list-unstyled font-color">
+              <div
+                class="btn btn-toggle collapsed fs-5 fw-bold"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTarget"
-                >통계</a
               >
+                통계
+              </div>
+
               <ul class="list-unstyled collapse" id="collapseTarget">
-                <a href="" class="rounded nav-link ms-2 fs-5">문항별 통계</a>
+                <a href="" class="rounded nav-link ms-3 fw-bold fs-5 font-color"
+                  >문항별 통계</a
+                >
               </ul>
             </ul>
           </nav>
           <div class="table1 justify-content-center">
-            <div class="display-5 text-center">문항별 통계</div>
+            <div
+              class="display-5 text-center fw-bold"
+              style="color: rgb(62, 43, 44)"
+            >
+              문항별 통계
+            </div>
             <div class="m-5 d-flex">
-              <table class="table text-center tb">
+              <table class="table text-center">
                 <thead>
                   <tr>
-                    <th class="th-font que-num-color border-white" rowspan="3">
-                      문항1
+                    <th class="border-white" rowspan="3">문항1</th>
+                    <th class="thcolor bg-secondary bg-opacity-75" colspan="4">
+                      접근 편리성
                     </th>
-                    <th class="th-font que-bgcolor" colspan="4">접근 편리성</th>
                   </tr>
-                  <tr class="answer-bgcolor border-white">
+                  <tr>
                     <td>1. 매우 불만</td>
                     <td>2. 불만</td>
                     <td>3. 만족</td>
@@ -57,7 +65,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="num-bgcolor">
+                  <tr>
                     <td></td>
                     <td>0</td>
                     <td>0</td>
@@ -67,12 +75,12 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="th-font que-num-color border-white" rowspan="3">
-                      문항2
+                    <th class="border-white" rowspan="3">문항2</th>
+                    <th class="thcolor bg-secondary bg-opacity-75" colspan="4">
+                      직원 친절도
                     </th>
-                    <th class="th-font que-bgcolor" colspan="4">직원 친절도</th>
                   </tr>
-                  <tr class="answer-bgcolor border-white">
+                  <tr class="border-white">
                     <td>1. 매우 불만</td>
                     <td>2. 불만</td>
                     <td>3. 만족</td>
@@ -80,7 +88,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="num-bgcolor">
+                  <tr>
                     <td></td>
                     <td>0</td>
                     <td>0</td>
@@ -90,12 +98,12 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="th-font que-num-color border-white" rowspan="3">
-                      문항3
+                    <th class="border-white" rowspan="3">문항3</th>
+                    <th class="thcolor bg-secondary bg-opacity-75" colspan="4">
+                      호텔 청결도
                     </th>
-                    <th class="th-font que-bgcolor" colspan="4">호텔 청결도</th>
                   </tr>
-                  <tr class="answer-bgcolor border-white">
+                  <tr class="border-white">
                     <td>1. 매우 불만</td>
                     <td>2. 불만</td>
                     <td>3. 만족</td>
@@ -103,7 +111,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="num-bgcolor">
+                  <tr class="">
                     <td></td>
                     <td>0</td>
                     <td>0</td>
@@ -113,12 +121,12 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="th-font que-num-color border-white" rowspan="3 ">
-                      문항4
+                    <th class="border-white" rowspan="3 ">문항4</th>
+                    <th class="thcolor bg-secondary bg-opacity-75" colspan="4">
+                      음식 만족도
                     </th>
-                    <th class="th-font que-bgcolor" colspan="4">음식 만족도</th>
                   </tr>
-                  <tr class="answer-bgcolor border-white">
+                  <tr class="border-white">
                     <td>1. 매우 불만</td>
                     <td>2. 불만</td>
                     <td>3. 만족</td>
@@ -126,7 +134,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="num-bgcolor">
+                  <tr>
                     <td></td>
                     <td>0</td>
                     <td>1</td>
@@ -136,12 +144,12 @@
                 </tbody>
                 <thead>
                   <tr>
-                    <th class="th-font que-num-color border-white" rowspan="3">
-                      문항5
+                    <th class="border-white" rowspan="3">문항5</th>
+                    <th class="thcolor bg-secondary bg-opacity-75" colspan="5">
+                      시설 편의성
                     </th>
-                    <th class="th-font que-bgcolor" colspan="5">시설 편의성</th>
                   </tr>
-                  <tr class="answer-bgcolor border-white">
+                  <tr class="border-white">
                     <td>1. 매우 불만</td>
                     <td>2. 불만</td>
                     <td>3. 만족</td>
@@ -149,7 +157,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="num-bgcolor">
+                  <tr>
                     <td></td>
                     <td>0</td>
                     <td>0</td>
@@ -158,6 +166,20 @@
                   </tr>
                 </tbody>
               </table>
+            </div>
+            <div class="d-flex justify-content-center">
+              <form action="./index.html" method="get">
+                <div>
+                  <a href="./index.html" target="_self">
+                    <button
+                      class="btn button bg-success bg-opacity-25 fs-5 fw-bold py-2 px-4"
+                      type="submit"
+                    >
+                      확인
+                    </button>
+                  </a>
+                </div>
+              </form>
             </div>
           </div>
         </div>

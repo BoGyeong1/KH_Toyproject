@@ -1,5 +1,9 @@
 * {
   border: 1px solid gray;
+  font-family: "S-CoreDream-3Light";
+}
+.font-color {
+  color: rgb(62, 43, 44);
 }
 .sidebar {
   width: 150px;
@@ -8,4 +12,27 @@
 .table1 {
   margin-top: 300px;
   width: 1000px;
+}
+
+.thcolor {
+  color: white;
+}
+
+.button {
+  position: relative;
+  border: none;
+  display: inline-block;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: 0.25s;
+  margin: 30px;
+}
+
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
