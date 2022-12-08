@@ -1,0 +1,32 @@
+* {
+  font-family: "S-CoreDream-3Light";
+  color: rgb(62, 43, 44);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#mainId {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.logo {
+  font-family: "Parisienne", cursive;
+}
+.menu {
+  background-color: rgb(241, 227, 196);
+}
+.footer {
+  background-color: rgb(241, 227, 196);
+  font-size: 0.8rem;
+}
+
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
