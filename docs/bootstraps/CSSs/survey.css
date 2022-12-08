@@ -1,6 +1,7 @@
 * {
   font-family: "S-CoreDream-3Light";
   color: rgb(62, 43, 44);
+  /* border: 1px gray solid; */
 }
 img {
   max-width: 100%;
@@ -17,6 +18,9 @@ img {
 }
 .menu {
   background-color: rgb(241, 227, 196);
+}
+.table-width {
+  max-width: 600px;
 }
 .footer {
   background-color: rgb(241, 227, 196);
