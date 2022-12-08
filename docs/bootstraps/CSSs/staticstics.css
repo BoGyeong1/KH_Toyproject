@@ -1,0 +1,11 @@
+* {
+  border: 1px solid gray;
+}
+.sidebar {
+  width: 150px;
+  background-color: rgb(173, 205, 185);
+}
+.table1 {
+  margin-top: 300px;
+  width: 1000px;
+}
