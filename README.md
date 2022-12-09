@@ -41,6 +41,8 @@
 
 - [HTML YOUTUBE](https://youtu.be/475CGT6pGx0)
 
+- [Bootstraps YOUTUBE](https://youtu.be/2uajpWv7ZP8)
+
 ### 프로젝트를 마무리하며 느낀 소감
 
 - 진보경 : 오류가 났을 때 CSS 연결 주소를 잘 살펴봐야한다는 것. CSS는 정말 종류가 다양하다. 협력을 통해 잘 마무리 하여 다행이다.
