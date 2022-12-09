@@ -54,7 +54,7 @@
 - [Bootstraps](./docs/bootstraps/index.html)
 - [Bootstrap CSSs](./docs/bootstraps/CSSs/index.css)
 
-### 유용한 코드
+### 주요 코드
 
 - 메뉴코드  
   **flex-column flex-md-row**  
